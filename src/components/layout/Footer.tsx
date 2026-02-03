@@ -11,14 +11,14 @@ const Footer = () => {
   ];
 
   const areas = [
-    "Jakarta Selatan",
-    "Jakarta Barat",
-    "Jakarta Utara",
-    "Jakarta Timur",
-    "Tangerang",
-    "Bekasi",
-    "Depok",
-    "Bogor",
+    "Lhokseumawe",
+    "Banda Aceh",
+    "Langsa",
+    "Bireuen",
+    "Aceh Utara",
+    "Aceh Timur",
+    "Pidie",
+    "Aceh Besar",
   ];
 
   return (
@@ -28,17 +28,17 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-12 h-12 bg-gradient-industrial rounded-lg flex items-center justify-center">
-                <span className="font-display text-2xl text-primary-foreground">BL</span>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-14 h-14 flex items-center justify-center hover:rotate-180 transition-transform duration-500 cursor-pointer">
+                <img src="/logo.png" alt="Bengkel Las Bos Logo" className="w-11 h-11 object-contain" />
               </div>
               <div>
-                <span className="font-display text-xl">BENGKEL LAS</span>
-                <p className="text-xs text-muted-foreground">PROFESIONAL</p>
+                <span className="font-display text-xl">BENGKEL LAS BOS</span>
+                <p className="text-xs text-muted-foreground">SOLUSI PENGELASAN TERBAIK</p>
               </div>
             </div>
             <p className="text-muted-foreground mb-6 text-sm leading-relaxed">
-              Bengkel las profesional terpercaya sejak 2009. Melayani berbagai kebutuhan pengelasan dengan kualitas terbaik dan harga kompetitif di Jakarta dan sekitarnya.
+              Bengkel las profesional terpercaya di Lhokseumawe. Melayani berbagai kebutuhan pengelasan dengan kualitas terbaik dan harga kompetitif di Aceh dan sekitarnya.
             </p>
             <div className="flex gap-4">
               <a
@@ -127,9 +127,9 @@ const Footer = () => {
                 <div>
                   <p className="text-sm text-muted-foreground">Alamat</p>
                   <p className="text-sm">
-                    Jl. Industri Raya No. 123,
+                    Jl. cut nyak dhien No. 45,
                     <br />
-                    Jakarta Barat, Indonesia 11620
+                    Lhokseumawe, Aceh 24351
                   </p>
                 </div>
               </li>
@@ -142,15 +142,20 @@ const Footer = () => {
       <div className="border-t border-border">
         <div className="container-section py-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground text-center md:text-left">
-            © 2024 Bengkel Las Profesional. Hak cipta dilindungi undang-undang.
+            © 2024 Bengkel Las Bos. Hak cipta dilindungi undang-undang.
           </p>
           <div className="flex gap-6 text-sm">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-              Kebijakan Privasi
-            </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-              Syarat & Ketentuan
-            </a>
+            <span className="text-muted-foreground">
+              Dibuat dengan <span className="text-red-500">❤</span> oleh{" "}
+              <a 
+                href="https://developerdadakan.vercel.app/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:text-primary/80 font-medium transition-colors"
+              >
+                Developer Dadakan
+              </a>
+            </span>
           </div>
         </div>
       </div>

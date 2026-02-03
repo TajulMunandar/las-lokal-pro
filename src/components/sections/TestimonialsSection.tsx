@@ -9,7 +9,7 @@ const TestimonialsSection = () => {
       id: 1,
       name: "Budi Santoso",
       role: "Pemilik Rumah",
-      location: "Jakarta Selatan",
+      location: "Lhokseumawe",
       rating: 5,
       text: "Sangat puas dengan hasil pagar besi minimalis yang dikerjakan. Hasilnya rapi, kuat, dan sesuai dengan desain yang saya inginkan. Tim juga sangat profesional dan tepat waktu.",
     },
@@ -17,7 +17,7 @@ const TestimonialsSection = () => {
       id: 2,
       name: "Siti Rahayu",
       role: "Pengembang Properti",
-      location: "Tangerang",
+      location: "Banda Aceh",
       rating: 5,
       text: "Sudah bekerja sama untuk beberapa proyek perumahan. Kualitas las sangat bagus dan harga bersaing. Recommended untuk proyek besar maupun kecil!",
     },
@@ -25,7 +25,7 @@ const TestimonialsSection = () => {
       id: 3,
       name: "Ahmad Wijaya",
       role: "Kontraktor",
-      location: "Bekasi",
+      location: "Langsa",
       rating: 5,
       text: "Bengkel las yang sangat profesional. Pengerjaan kanopi untuk klien saya selesai lebih cepat dari jadwal dan hasilnya memuaskan. Pasti akan pakai jasa mereka lagi.",
     },
@@ -33,9 +33,9 @@ const TestimonialsSection = () => {
       id: 4,
       name: "Dewi Lestari",
       role: "Pemilik Ruko",
-      location: "Jakarta Barat",
+      location: "Bireuen",
       rating: 5,
-      text: "Rolling door yang dipasang sudah 2 tahun masih berfungsi dengan baik. Pelayanannya ramah dan ada garansi. Terima kasih Bengkel Las Profesional!",
+      text: "Rolling door yang dipasang sudah 2 tahun masih berfungsi dengan baik. Pelayanannya ramah dan ada garansi. Terima kasih Bengkel Las Bos!",
     },
   ];
 
@@ -81,7 +81,7 @@ const TestimonialsSection = () => {
           </div>
 
           {/* Card */}
-          <div className="bg-card border border-border rounded-2xl p-8 md:p-12 pt-12 text-center shadow-card">
+          <div className="bg-card border border-border rounded-2xl p-8 md:p-12 pt-12 text-center shadow-card hover-scale transition-transform cursor-default">
             {/* Stars */}
             <div className="flex justify-center gap-1 mb-6">
               {[...Array(testimonials[activeIndex].rating)].map((_, i) => (

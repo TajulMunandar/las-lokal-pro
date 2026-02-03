@@ -21,42 +21,42 @@ const PortfolioSection = () => {
       image: portfolioFence,
       title: "Pagar Besi Minimalis Modern",
       category: "pagar",
-      location: "Jakarta Selatan",
+      location: "Lhokseumawe",
     },
     {
       id: 2,
       image: portfolioCanopy,
       title: "Kanopi Carport Premium",
       category: "kanopi",
-      location: "Tangerang",
+      location: "Banda Aceh",
     },
     {
       id: 3,
       image: portfolioStairs,
       title: "Tangga Stainless Steel Elegan",
       category: "tangga",
-      location: "Jakarta Barat",
+      location: "Langsa",
     },
     {
       id: 4,
       image: portfolioFence,
       title: "Pagar Klasik Ornamen",
       category: "pagar",
-      location: "Bekasi",
+      location: "Bireuen",
     },
     {
       id: 5,
       image: portfolioCanopy,
       title: "Kanopi Teras Rumah",
       category: "kanopi",
-      location: "Depok",
+      location: "Aceh Utara",
     },
     {
       id: 6,
       image: portfolioStairs,
       title: "Railing Balkon Modern",
       category: "tangga",
-      location: "Jakarta Utara",
+      location: "Aceh Timur",
     },
   ];
 
@@ -76,7 +76,7 @@ const PortfolioSection = () => {
             PROYEK <span className="text-gradient">TERBAIK</span> KAMI
           </h2>
           <p className="text-muted-foreground text-lg">
-            Lihat hasil pengerjaan kami yang telah dipercaya oleh ratusan pelanggan di seluruh Jabodetabek.
+            Lihat hasil pengerjaan kami yang telah dipercaya oleh ratusan pelanggan di seluruh Aceh.
           </p>
         </div>
 
@@ -102,7 +102,7 @@ const PortfolioSection = () => {
           {filteredProjects.map((project, index) => (
             <article
               key={project.id}
-              className="group relative overflow-hidden rounded-xl bg-card border border-border hover:border-primary/50 transition-all duration-500 animate-scale-in"
+              className="group relative overflow-hidden rounded-xl bg-card border border-border hover:border-primary/50 transition-all duration-500 animate-scale-in hover-lift cursor-pointer"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               {/* Image */}

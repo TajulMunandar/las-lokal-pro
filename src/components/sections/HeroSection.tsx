@@ -29,7 +29,7 @@ const HeroSection = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 border border-primary/30 rounded-full mb-6 animate-fade-in">
             <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-            <span className="text-sm font-medium text-primary">Bengkel Las Terpercaya #1 di Jakarta</span>
+            <span className="text-sm font-medium text-primary">Bengkel Las Terpercaya #1 di Lhokseumawe</span>
           </div>
 
           {/* Main Heading */}

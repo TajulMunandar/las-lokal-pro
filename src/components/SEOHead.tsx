@@ -3,31 +3,31 @@ import { useEffect } from "react";
 const SEOHead = () => {
   useEffect(() => {
     // Set page title
-    document.title = "Bengkel Las Profesional Jakarta | Jasa Las Pagar, Kanopi, Tangga Terpercaya";
+    document.title = "Bengkel Las Bos Lhokseumawe | Jasa Las Pagar, Kanopi, Tangga Terpercaya";
 
     // Set meta description
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute("content", "Bengkel las profesional terpercaya di Jakarta. Jasa las pagar besi, kanopi, tangga, rolling door & fabrikasi custom. Pengalaman 15+ tahun, garansi kualitas. Hubungi sekarang!");
+      metaDescription.setAttribute("content", "Bengkel las profesional terpercaya di Lhokseumawe Aceh. Jasa las pagar besi, kanopi, tangga, rolling door & fabrikasi custom. Pengalaman 15+ tahun, garansi kualitas. Hubungi sekarang!");
     } else {
       const meta = document.createElement("meta");
       meta.name = "description";
-      meta.content = "Bengkel las profesional terpercaya di Jakarta. Jasa las pagar besi, kanopi, tangga, rolling door & fabrikasi custom. Pengalaman 15+ tahun, garansi kualitas. Hubungi sekarang!";
+      meta.content = "Bengkel las profesional terpercaya di Lhokseumawe Aceh. Jasa las pagar besi, kanopi, tangga, rolling door & fabrikasi custom. Pengalaman 15+ tahun, garansi kualitas. Hubungi sekarang!";
       document.head.appendChild(meta);
     }
 
     // Add additional SEO meta tags
     const metaTags = [
-      { name: "keywords", content: "bengkel las, jasa las, las pagar besi, las kanopi, las tangga, rolling door, fabrikasi logam, las stainless, jasa las jakarta, bengkel las profesional, tukang las terdekat" },
+      { name: "keywords", content: "bengkel las, jasa las, las pagar besi, las kanopi, las tangga, rolling door, fabrikasi logam, las stainless, jasa las lhokseumawe, bengkel las profesional, tukang las terdekat, aceh" },
       { name: "robots", content: "index, follow" },
-      { name: "author", content: "Bengkel Las Profesional" },
-      { property: "og:title", content: "Bengkel Las Profesional Jakarta | Jasa Las Terpercaya" },
-      { property: "og:description", content: "Bengkel las profesional terpercaya di Jakarta. Jasa las pagar besi, kanopi, tangga, rolling door & fabrikasi custom dengan pengalaman 15+ tahun." },
+      { name: "author", content: "Bengkel Las Bos" },
+      { property: "og:title", content: "Bengkel Las Bos Lhokseumawe | Jasa Las Terpercaya" },
+      { property: "og:description", content: "Bengkel las profesional terpercaya di Lhokseumawe Aceh. Jasa las pagar besi, kanopi, tangga, rolling door & fabrikasi custom dengan pengalaman 15+ tahun." },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "id_ID" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Bengkel Las Profesional Jakarta" },
-      { name: "twitter:description", content: "Jasa las berkualitas tinggi untuk pagar besi, kanopi, tangga, dan fabrikasi custom." },
+      { name: "twitter:title", content: "Bengkel Las Bos Lhokseumawe" },
+      { name: "twitter:description", content: "Jasa las berkualitas tinggi untuk pagar besi, kanopi, tangga, dan fabrikasi custom di Aceh." },
     ];
 
     metaTags.forEach((tag) => {
@@ -65,23 +65,23 @@ const SEOHead = () => {
           {
             "@type": "LocalBusiness",
             "@id": "#business",
-            "name": "Bengkel Las Profesional",
-            "description": "Bengkel las profesional terpercaya di Jakarta dengan pengalaman 15+ tahun. Melayani jasa las pagar besi, kanopi, tangga, rolling door, dan fabrikasi logam custom.",
+            "name": "Bengkel Las Bos",
+            "description": "Bengkel las profesional terpercaya di Lhokseumawe Aceh dengan pengalaman 15+ tahun. Melayani jasa las pagar besi, kanopi, tangga, rolling door, dan fabrikasi logam custom.",
             "url": window.location.origin,
             "telephone": "+6281234567890",
-            "email": "info@bengkellaspro.com",
+            "email": "info@bengkellasbos.com",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Jl. Industri Raya No. 123",
-              "addressLocality": "Jakarta Barat",
-              "addressRegion": "DKI Jakarta",
-              "postalCode": "11620",
+              "streetAddress": "Jl. Cut Nyak Dhien No. 45",
+              "addressLocality": "Lhokseumawe",
+              "addressRegion": "Aceh",
+              "postalCode": "24351",
               "addressCountry": "ID"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": -6.229386,
-              "longitude": 106.6894324
+              "latitude": 5.18,
+              "longitude": 97.15
             },
             "openingHoursSpecification": [
               {
@@ -94,8 +94,8 @@ const SEOHead = () => {
             "priceRange": "$$",
             "image": "",
             "sameAs": [
-              "https://facebook.com/bengkellaspro",
-              "https://instagram.com/bengkellaspro"
+              "https://facebook.com/bengkellasbos",
+              "https://instagram.com/bengkellasbos"
             ]
           },
           {
@@ -106,7 +106,7 @@ const SEOHead = () => {
             "provider": { "@id": "#business" },
             "areaServed": {
               "@type": "City",
-              "name": "Jakarta"
+              "name": "Lhokseumawe"
             }
           },
           {
@@ -140,7 +140,7 @@ const SEOHead = () => {
                 "name": "Area mana saja yang dilayani?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Kami melayani seluruh wilayah Jabodetabek termasuk Jakarta, Tangerang, Bekasi, Depok, dan Bogor."
+                  "text": "Kami melayani seluruh wilayah Aceh termasuk Lhokseumawe, Banda Aceh, Langsa, Bireuen, Aceh Utara, Aceh Timur, Pidie, dan Aceh Besar."
                 }
               }
             ]

@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -15,13 +17,20 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { href: "#beranda", label: "Beranda" },
-    { href: "#layanan", label: "Layanan" },
-    { href: "#tentang", label: "Tentang Kami" },
-    { href: "#portofolio", label: "Portofolio" },
-    { href: "#testimoni", label: "Testimoni" },
-    { href: "#kontak", label: "Kontak" },
+    { href: "/", label: "Beranda" },
+    { href: "/layanan", label: "Layanan" },
+    { href: "/tentang-kami", label: "Tentang Kami" },
+    { href: "/portofolio", label: "Portofolio" },
+    { href: "/testimoni", label: "Testimoni" },
+    { href: "/kontak", label: "Kontak" },
   ];
+
+  const isActive = (path: string) => {
+    if (path === "/") {
+      return location.pathname === "/";
+    }
+    return location.pathname.startsWith(path);
+  };
 
   return (
     <>
@@ -35,7 +44,7 @@ const Navbar = () => {
             </a>
             <span className="flex items-center gap-2 text-muted-foreground">
               <MapPin className="w-4 h-4" />
-              <span>Jakarta, Indonesia</span>
+              <span>Lhokseumawe, Aceh</span>
             </span>
           </div>
           <div className="text-muted-foreground">
@@ -55,27 +64,31 @@ const Navbar = () => {
         <div className="container-section">
           <div className="flex items-center justify-between h-16 md:h-20">
             {/* Logo */}
-            <a href="#beranda" className="flex items-center gap-2">
-              <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-industrial rounded-lg flex items-center justify-center">
-                <span className="font-display text-xl md:text-2xl text-primary-foreground">BL</span>
+            <Link to="/" className="flex items-center gap-2 group">
+              <div className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center group-hover:rotate-180 transition-transform duration-500">
+                <img src="/logo.png" alt="Bengkel Las Bos Logo" className="w-10 h-10 md:w-11 md:h-11 object-contain" />
               </div>
               <div className="hidden sm:block">
-                <span className="font-display text-xl md:text-2xl tracking-wide">BENGKEL LAS</span>
-                <p className="text-[10px] md:text-xs text-muted-foreground -mt-1">PROFESIONAL</p>
+                <span className="font-display text-xl md:text-2xl tracking-wide">BENGKEL LAS BOS</span>
+                <p className="text-[10px] md:text-xs text-muted-foreground -mt-1">SOLUSI PENGELASAN TERBAIK</p>
               </div>
-            </a>
+            </Link>
 
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center gap-8">
               {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.href}
-                  href={link.href}
-                  className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors relative group"
+                  to={link.href}
+                  className={`text-sm font-medium transition-colors relative group ${
+                    isActive(link.href) ? "text-primary" : "text-muted-foreground hover:text-primary"
+                  }`}
                 >
                   {link.label}
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
-                </a>
+                  <span className={`absolute -bottom-1 left-0 h-0.5 bg-primary transition-all duration-300 ${
+                    isActive(link.href) ? "w-full" : "w-0 group-hover:w-full"
+                  }`} />
+                </Link>
               ))}
             </div>
 
@@ -106,14 +119,18 @@ const Navbar = () => {
           >
             <div className="flex flex-col gap-2">
               {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.href}
-                  href={link.href}
-                  className="px-4 py-3 text-sm font-medium text-muted-foreground hover:text-primary hover:bg-secondary rounded-lg transition-colors"
+                  to={link.href}
+                  className={`px-4 py-3 text-sm font-medium rounded-lg transition-colors ${
+                    isActive(link.href)
+                      ? "text-primary bg-secondary"
+                      : "text-muted-foreground hover:text-primary hover:bg-secondary"
+                  }`}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {link.label}
-                </a>
+                </Link>
               ))}
               <Button variant="hero" size="lg" className="mt-2" asChild>
                 <a href="https://wa.me/6281234567890?text=Halo,%20saya%20tertarik%20dengan%20jasa%20las%20Anda" target="_blank" rel="noopener noreferrer">

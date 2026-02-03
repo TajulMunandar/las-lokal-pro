@@ -47,7 +47,7 @@ const AboutSection = () => {
               BENGKEL LAS <span className="text-gradient">TERPERCAYA</span> SEJAK 2009
             </h2>
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-              Kami adalah bengkel las profesional yang telah melayani ribuan pelanggan di Jakarta dan sekitarnya. Dengan pengalaman lebih dari 15 tahun, kami berkomitmen memberikan hasil pengelasan berkualitas tinggi dengan harga yang kompetitif.
+              Kami adalah bengkel las profesional yang telah melayani ribuan pelanggan di Lhokseumawe dan sekitarnya di Aceh. Dengan pengalaman lebih dari 15 tahun, kami berkomitmen memberikan hasil pengelasan berkualitas tinggi dengan harga yang kompetitif.
             </p>
 
             {/* Features List */}
@@ -72,7 +72,7 @@ const AboutSection = () => {
             {values.map((value, index) => (
               <div
                 key={index}
-                className="bg-card border border-border rounded-xl p-6 flex items-start gap-5 hover:border-primary/50 transition-colors animate-fade-in-right"
+                className="bg-card border border-border rounded-xl p-6 flex items-start gap-5 hover:border-primary/50 transition-colors animate-fade-in-right hover-lift cursor-pointer"
                 style={{ animationDelay: `${index * 0.15}s` }}
               >
                 <div className="w-14 h-14 bg-gradient-industrial rounded-xl flex items-center justify-center flex-shrink-0">
@@ -86,7 +86,7 @@ const AboutSection = () => {
             ))}
 
             {/* Stats Card */}
-            <div className="bg-gradient-industrial rounded-xl p-8 text-primary-foreground">
+            <div className="bg-gradient-industrial rounded-xl p-8 text-primary-foreground hover-scale transition-transform cursor-default">
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>
                   <p className="font-display text-4xl mb-1">15+</p>

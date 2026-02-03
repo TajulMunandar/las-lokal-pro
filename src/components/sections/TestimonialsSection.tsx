@@ -11,7 +11,7 @@ const TestimonialsSection = () => {
       role: "Pemilik Rumah",
       location: "Lhokseumawe",
       rating: 5,
-      text: "Sangat puas dengan hasil pagar besi minimalis yang dikerjakan. Hasilnya rapi, kuat, dan sesuai dengan desain yang saya inginkan. Tim juga sangat profesional dan tepat waktu.",
+      text: "Sangat puas dengan hasil kerja Bos Teralis. Pagar rumah saya terlihat sangat elegan dan finishingnya rapi. Tim juga sangat profesional dan tepat waktu.",
     },
     {
       id: 2,
@@ -35,7 +35,7 @@ const TestimonialsSection = () => {
       role: "Pemilik Ruko",
       location: "Bireuen",
       rating: 5,
-      text: "Rolling door yang dipasang sudah 2 tahun masih berfungsi dengan baik. Pelayanannya ramah dan ada garansi. Terima kasih Bengkel Las Bos!",
+      text: "Rolling door yang dipasang sudah 2 tahun masih berfungsi dengan baik. Pelayanannya ramah dan ada garansi. Terima kasih Bos Teralis!",
     },
   ];
 

@@ -66,10 +66,10 @@ const Navbar = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2 group">
               <div className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center group-hover:rotate-180 transition-transform duration-500">
-                <img src="/logo.png" alt="Bengkel Las Bos Logo" className="w-10 h-10 md:w-11 md:h-11 object-contain" />
+                <img src="/logo.png" alt="Bos Teralis Logo" className="w-10 h-10 md:w-11 md:h-11 object-contain" />
               </div>
               <div className="hidden sm:block">
-                <span className="font-display text-xl md:text-2xl tracking-wide">BENGKEL LAS BOS</span>
+                <span className="font-display text-xl md:text-2xl tracking-wide">BOS TERALIS</span>
                 <p className="text-[10px] md:text-xs text-muted-foreground -mt-1">SOLUSI PENGELASAN TERBAIK</p>
               </div>
             </Link>

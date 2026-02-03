@@ -90,10 +90,10 @@ const PortfolioPage = () => {
   return (
     <>
       <Helmet>
-        <title>Portofolio Jasa Las | Bengkel Las Bos Lhokseumawe</title>
+        <title>Portofolio Jasa Las | Bos Teralis Lhokseumawe</title>
         <meta name="description" content="Portofolio proyek jasa las kami: pagar besi, kanopi, tangga, railing & fabrikasi custom. Lihat hasil kerja kami di Aceh dan sekitarnya." />
-        <meta name="keywords" content="portofolio las, hasil kerja las, proyek las, pagar besi, kanopi, tangga, lhokseumawe, aceh" />
-        <meta property="og:title" content="Portofolio Jasa Las | Bengkel Las Bos" />
+        <meta name="keywords" content="portofolio las, hasil kerja las, proyek las, pagar besi, kanopi, tangga, lhokseumawe, aceh, bos teralis" />
+        <meta property="og:title" content="Portofolio Jasa Las | Bos Teralis" />
         <meta property="og:description" content="Lihat portofolio proyek kami - pagar besi, kanopi, tangga, dan fabrikasi custom dengan kualitas terbaik di Aceh." />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://bengkellasbos.com/portofolio" />
@@ -139,7 +139,8 @@ const PortfolioPage = () => {
             {filteredProjects.map((project) => (
               <article
                 key={project.id}
-                className="group bg-card border border-border rounded-xl overflow-hidden hover:border-primary/50 hover:shadow-glow transition-all duration-500"
+                className="group relative overflow-hidden rounded-xl bg-card border border-border hover:border-primary/50 transition-all duration-500 animate-scale-in hover-lift cursor-pointer"
+                style={{ animationDelay: `${project.id * 0.1}s` }}
               >
                 <div className="aspect-video bg-secondary/30 relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

@@ -3,30 +3,30 @@ import { useEffect } from "react";
 const SEOHead = () => {
   useEffect(() => {
     // Set page title
-    document.title = "Bengkel Las Bos Lhokseumawe | Jasa Las Pagar, Kanopi, Tangga Terpercaya";
+    document.title = "Bos Teralis Lhokseumawe | Jasa Las Pagar, Kanopi, Tangga Terpercaya";
 
     // Set meta description
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute("content", "Bengkel las profesional terpercaya di Lhokseumawe Aceh. Jasa las pagar besi, kanopi, tangga, rolling door & fabrikasi custom. Pengalaman 15+ tahun, garansi kualitas. Hubungi sekarang!");
+      metaDescription.setAttribute("content", "Bos Teralis - Bengkel las profesional terpercaya di Lhokseumawe Aceh. Jasa las pagar besi, kanopi, tangga, rolling door & fabrikasi custom. Pengalaman 15+ tahun, garansi kualitas. Hubungi sekarang!");
     } else {
       const meta = document.createElement("meta");
       meta.name = "description";
-      meta.content = "Bengkel las profesional terpercaya di Lhokseumawe Aceh. Jasa las pagar besi, kanopi, tangga, rolling door & fabrikasi custom. Pengalaman 15+ tahun, garansi kualitas. Hubungi sekarang!";
+      meta.content = "Bos Teralis - Bengkel las profesional terpercaya di Lhokseumawe Aceh. Jasa las pagar besi, kanopi, tangga, rolling door & fabrikasi custom. Pengalaman 15+ tahun, garansi kualitas. Hubungi sekarang!";
       document.head.appendChild(meta);
     }
 
     // Add additional SEO meta tags
     const metaTags = [
-      { name: "keywords", content: "bengkel las, jasa las, las pagar besi, las kanopi, las tangga, rolling door, fabrikasi logam, las stainless, jasa las lhokseumawe, bengkel las profesional, tukang las terdekat, aceh" },
+      { name: "keywords", content: "bos teralis, bengkel las, jasa las, las pagar besi, las kanopi, las tangga, rolling door, fabrikasi logam, las stainless, jasa las lhokseumawe, bengkel las profesional, tukang las terdekat, aceh" },
       { name: "robots", content: "index, follow" },
-      { name: "author", content: "Bengkel Las Bos" },
-      { property: "og:title", content: "Bengkel Las Bos Lhokseumawe | Jasa Las Terpercaya" },
-      { property: "og:description", content: "Bengkel las profesional terpercaya di Lhokseumawe Aceh. Jasa las pagar besi, kanopi, tangga, rolling door & fabrikasi custom dengan pengalaman 15+ tahun." },
+      { name: "author", content: "Bos Teralis" },
+      { property: "og:title", content: "Bos Teralis Lhokseumawe | Jasa Las Terpercaya" },
+      { property: "og:description", content: "Bos Teralis - Bengkel las profesional terpercaya di Lhokseumawe Aceh. Jasa las pagar besi, kanopi, tangga, rolling door & fabrikasi custom dengan pengalaman 15+ tahun." },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "id_ID" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Bengkel Las Bos Lhokseumawe" },
+      { name: "twitter:title", content: "Bos Teralis Lhokseumawe" },
       { name: "twitter:description", content: "Jasa las berkualitas tinggi untuk pagar besi, kanopi, tangga, dan fabrikasi custom di Aceh." },
     ];
 
@@ -65,7 +65,7 @@ const SEOHead = () => {
           {
             "@type": "LocalBusiness",
             "@id": "#business",
-            "name": "Bengkel Las Bos",
+            "name": "Bos Teralis",
             "description": "Bengkel las profesional terpercaya di Lhokseumawe Aceh dengan pengalaman 15+ tahun. Melayani jasa las pagar besi, kanopi, tangga, rolling door, dan fabrikasi logam custom.",
             "url": window.location.origin,
             "telephone": "+6281234567890",
@@ -94,8 +94,8 @@ const SEOHead = () => {
             "priceRange": "$$",
             "image": "",
             "sameAs": [
-              "https://facebook.com/bengkellasbos",
-              "https://instagram.com/bengkellasbos"
+              "https://facebook.com/bos teralis",
+              "https://instagram.com/bos teralis"
             ]
           },
           {

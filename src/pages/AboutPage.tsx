@@ -58,10 +58,10 @@ const AboutPage = () => {
   return (
     <>
       <Helmet>
-        <title>Tentang Kami | Bengkel Las Bos Lhokseumawe</title>
-        <meta name="description" content="Bengkel las profesional terpercaya di Lhokseumawe Aceh dengan pengalaman 15+ tahun. Spesialis pagar besi, kanopi, tangga, dan fabrikasi custom. Tim ahli, kualitas terjamin." />
-        <meta name="keywords" content="bengkel las, tentang kami, jasa las profesional, tukang las berpengalaman, fabrikasi logam lhokseumawe, aceh" />
-        <meta property="og:title" content="Tentang Kami | Bengkel Las Bos" />
+        <title>Tentang Kami | Bos Teralis Lhokseumawe</title>
+        <meta name="description" content="Bos Teralis - Bengkel las profesional terpercaya di Lhokseumawe Aceh dengan pengalaman 15+ tahun. Spesialis pagar besi, kanopi, tangga, dan fabrikasi custom. Tim ahli, kualitas terjamin." />
+        <meta name="keywords" content="bos teralis, bengkel las, tentang kami, jasa las profesional, tukang las berpengalaman, fabrikasi logam lhokseumawe, aceh" />
+        <meta property="og:title" content="Tentang Kami | Bos Teralis" />
         <meta property="og:description" content="Tim profesional dengan 15+ tahun pengalaman dalam jasa las dan fabrikasi logam berkualitas tinggi di Aceh." />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://bengkellasbos.com/tentang-kami" />
@@ -93,10 +93,10 @@ const AboutPage = () => {
                 TENTANG KAMI
               </span>
               <h2 className="font-display text-4xl md:text-5xl mb-6">
-                BENGKEL LAS <span className="text-gradient">BOS</span>
+                BOS <span className="text-gradient">TERALIS</span>
               </h2>
               <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-                Bengkel Las Bos adalah perusahaan jasa las yang berlokasi di Lhokseumawe, didirikan dengan visi memberikan layanan pengelasan berkualitas tinggi kepada masyarakat Aceh. Dengan pengalaman lebih dari 15 tahun, kami telah dipercaya untuk menangani berbagai proyek mulai dari hunian pribadi, komersial, hingga industri.
+                Bos Teralis adalah perusahaan jasa las yang berlokasi di Lhokseumawe, didirikan dengan visi memberikan layanan pengelasan berkualitas tinggi kepada masyarakat Aceh. Dengan pengalaman lebih dari 15 tahun, kami telah dipercaya untuk menangani berbagai proyek mulai dari hunian pribadi, komersial, hingga industri.
               </p>
               <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
                 Kami специализируемся dalam berbagai layanan pengelasan termasuk pagar besi, kanopi, tangga, railing, rolling door, dan fabrikasi custom. Setiap proyek ditangani oleh tim ahli dengan peralatan modern dan material berkualitas tinggi.

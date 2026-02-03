@@ -89,7 +89,7 @@ const ContactSection = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Lokasi Bengkel Las Bos"
+                title="Lokasi Bos Teralis"
               />
             </div>
           </div>

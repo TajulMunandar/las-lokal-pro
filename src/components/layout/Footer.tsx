@@ -30,10 +30,10 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-14 h-14 flex items-center justify-center hover:rotate-180 transition-transform duration-500 cursor-pointer">
-                <img src="/logo.png" alt="Bengkel Las Bos Logo" className="w-11 h-11 object-contain" />
+                <img src="/logo.png" alt="Bos Teralis Logo" className="w-11 h-11 object-contain" />
               </div>
               <div>
-                <span className="font-display text-xl">BENGKEL LAS BOS</span>
+                <span className="font-display text-xl">BOS TERALIS</span>
                 <p className="text-xs text-muted-foreground">SOLUSI PENGELASAN TERBAIK</p>
               </div>
             </div>
@@ -117,8 +117,8 @@ const Footer = () => {
                 <Mail className="w-5 h-5 text-primary flex-shrink-0" />
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <a href="mailto:info@bengkellaspro.com" className="hover:text-primary transition-colors">
-                    info@bengkellaspro.com
+                  <a href="mailto:info@bengkellasbos.com" className="hover:text-primary transition-colors">
+                    info@bengkellasbos.com
                   </a>
                 </div>
               </li>
@@ -127,7 +127,7 @@ const Footer = () => {
                 <div>
                   <p className="text-sm text-muted-foreground">Alamat</p>
                   <p className="text-sm">
-                    Jl. cut nyak dhien No. 45,
+                    Jl. Cut Nyak Dhien No. 45,
                     <br />
                     Lhokseumawe, Aceh 24351
                   </p>
@@ -142,14 +142,14 @@ const Footer = () => {
       <div className="border-t border-border">
         <div className="container-section py-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground text-center md:text-left">
-            © 2024 Bengkel Las Bos. Hak cipta dilindungi undang-undang.
+            © 2024 Bos Teralis. Hak cipta dilindungi undang-undang.
           </p>
           <div className="flex gap-6 text-sm">
             <span className="text-muted-foreground">
               Dibuat dengan <span className="text-red-500">❤</span> oleh{" "}
-              <a 
-                href="https://developerdadakan.vercel.app/" 
-                target="_blank" 
+              <a
+                href="https://developerdadakan.vercel.app/"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:text-primary/80 font-medium transition-colors"
               >

@@ -72,9 +72,9 @@ const ServicesPage = () => {
   return (
     <>
       <Helmet>
-        <title>Layanan Jasa Las Profesional Lhokseumawe | Bengkel Las Bos</title>
-        <meta name="description" content="Layanan jasa las profesional di Lhokseumawe Aceh: pagar besi, kanopi, tangga, stainless steel, rolling door & fabrikasi custom. Harga kompetitif, garansi kualitas. Hubungi sekarang!" />
-        <meta name="keywords" content="jasa las, bengkel las, las profesional, pagar besi, kanopi, tangga, rolling door, fabrikasi custom, las stainless, lhokseumawe, aceh" />
+        <title>Layanan Jasa Las Profesional Lhokseumawe | Bos Teralis</title>
+        <meta name="description" content="Bos Teralis - Layanan jasa las profesional di Lhokseumawe Aceh: pagar besi, kanopi, tangga, stainless steel, rolling door & fabrikasi custom. Harga kompetitif, garansi kualitas. Hubungi sekarang!" />
+        <meta name="keywords" content="jasa las, bengkel las, las profesional, pagar besi, kanopi, tangga, rolling door, fabrikasi custom, las stainless, lhokseumawe, aceh, bos teralis" />
         <meta property="og:title" content="Layanan Jasa Las Profesional Lhokseumawe" />
         <meta property="og:description" content="Layanan lengkap: pagar besi, kanopi, tangga, stainless steel, rolling door & fabrikasi custom. Profesional & berkualitas di Aceh." />
         <meta property="og:type" content="website" />

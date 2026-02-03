@@ -19,7 +19,7 @@ const TestimonialsPage = () => {
       location: "Lhokseumawe",
       rating: 5,
       project: "Pagar Besi",
-      quote: "Sangat puas dengan hasil kerja Bengkel Las Bos. Pagar rumah saya terlihat sangat elegan dan finishingnya rapi. Proses pengerjaan juga tepat waktu. Highly recommended!",
+      quote: "Sangat puas dengan hasil kerja Bos Teralis. Pagar rumah saya terlihat sangat elegan dan finishingnya rapi. Proses pengerjaan juga tepat waktu. Highly recommended!",
       date: "Januari 2024",
     },
     {
@@ -49,7 +49,7 @@ const TestimonialsPage = () => {
       location: "Bireuen",
       rating: 5,
       project: "Tangga Spiral",
-      quote: "Sebagai arsitek, saya picky dengan detail. Bengkel Las Bos mampu merealisasikan desain tangga spiral dengan presisi. Hasilnya sesuai dengan visi arsitektur yang saya rancang.",
+      quote: "Sebagai arsitek, saya picky dengan detail. Bos Teralis mampu merealisasikan desain tangga spiral dengan presisi. Hasilnya sesuai dengan visi arsitektur yang saya rancang.",
       date: "Oktober 2023",
     },
     {
@@ -84,10 +84,10 @@ const TestimonialsPage = () => {
   return (
     <>
       <Helmet>
-        <title>Testimoni Klien | Bengkel Las Bos Lhokseumawe</title>
+        <title>Testimoni Klien | Bos Teralis Lhokseumawe</title>
         <meta name="description" content="Testimoni dan ulasan dari klien yang puas dengan jasa las kami. Pagar besi, kanopi, tangga, rolling door & fabrikasi custom. 98% klien puas di Aceh." />
-        <meta name="keywords" content="testimoni las, ulasan klien, review bengkel las, rating jasa las, klien puas lhokseumawe, aceh" />
-        <meta property="og:title" content="Testimoni Klien | Bengkel Las Bos" />
+        <meta name="keywords" content="testimoni las, ulasan klien, review bengkel las, rating jasa las, klien puas lhokseumawe, aceh, bos teralis" />
+        <meta property="og:title" content="Testimoni Klien | Bos Teralis" />
         <meta property="og:description" content="Baca apa yang klien kami katakan tentang kualitas layanan kami. 98% klien puas dan kembali menggunakan jasa kami di Aceh." />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://bengkellasbos.com/testimoni" />

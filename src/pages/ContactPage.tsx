@@ -48,10 +48,10 @@ const ContactPage = () => {
   return (
     <>
       <Helmet>
-        <title>Hubungi Kami | Bengkel Las Bos Lhokseumawe</title>
-        <meta name="description" content="Hubungi Bengkel Las Bos untuk konsultasi jasa las di Lhokseumawe Aceh. Alamat Jl. Cut Nyak Dhien No. 45, telepon 0812-3456-7890, email info@bengkellasbos.com. Jam operasional Senin-Sabtu 08:00-17:00." />
-        <meta name="keywords" content="hubungi bengkel las, kontak las profesional, jasa las lhokseumawe, telepon bengkel las, alamat las aceh" />
-        <meta property="og:title" content="Hubungi Kami | Bengkel Las Bos" />
+        <title>Hubungi Kami | Bos Teralis Lhokseumawe</title>
+        <meta name="description" content="Hubungi Bos Teralis untuk konsultasi jasa las di Lhokseumawe Aceh. Alamat Jl. Cut Nyak Dhien No. 45, telepon 0812-3456-7890, email info@bengkellasbos.com. Jam operasional Senin-Sabtu 08:00-17:00." />
+        <meta name="keywords" content="hubungi bengkel las, kontak las profesional, jasa las lhokseumawe, telepon bengkel las, alamat las aceh, bos teralis" />
+        <meta property="og:title" content="Hubungi Kami | Bos Teralis" />
         <meta property="og:description" content="Konsultasi gratis untuk kebutuhan pengelasan Anda. Hubungi kami melalui telepon, WhatsApp, atau email di Lhokseumawe Aceh." />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://bengkellasbos.com/kontak" />
@@ -94,7 +94,7 @@ const ContactPage = () => {
                     href={item.link || "#"}
                     target={item.link?.startsWith("http") ? "_blank" : undefined}
                     rel={item.link?.startsWith("http") ? "noopener noreferrer" : undefined}
-                    className="flex items-start gap-4 p-4 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors"
+                    className="flex items-start gap-4 p-4 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors hover-lift cursor-pointer"
                   >
                     <div className="w-12 h-12 bg-gradient-industrial rounded-xl flex items-center justify-center flex-shrink-0">
                       <item.icon className="w-6 h-6 text-primary-foreground" />
